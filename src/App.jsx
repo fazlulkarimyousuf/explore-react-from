@@ -1,0 +1,14 @@
+import './App.css'
+
+function App() {
+
+  return (
+    <>
+      <h1>Explore React From </h1>    
+    </>
+  )
+}
+
+export default App;
+
+// SimpleFrom
