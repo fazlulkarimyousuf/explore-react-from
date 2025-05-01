@@ -1,5 +1,5 @@
-import React, {use,useState} from 'react';
-
+import React, {useState} from 'react';
+// use,
 const ControllerField = () => {
 
 
@@ -22,7 +22,7 @@ const ControllerField = () => {
     }
 
 
-
+// Password must be at least 6 characters long
 
 
     const handleSubmit = (e) => {
@@ -37,7 +37,7 @@ const ControllerField = () => {
                 <input type="email" name="email" placeholder='Email' required  />
                 <br />
                 <br />
-                <input type="password" name="password" placeholder='Password' onChange={handlePasswordOnChange} defaultValue={password} required  />
+                <input type="password" name="password" placeholder='Password must be 6 characters' onChange={handlePasswordOnChange} defaultValue={password} required  />
                 <br />
                 <br />
                 <input type="submit" value="Submit" />
